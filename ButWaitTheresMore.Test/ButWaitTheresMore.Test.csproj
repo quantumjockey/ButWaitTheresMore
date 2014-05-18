@@ -53,6 +53,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ObjectExtensions_spec.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ButWaitTheresMore\ButWaitTheresMore.csproj">
+      <Project>{6fa7c8ff-9a94-440e-aeac-97da1f843995}</Project>
+      <Name>ButWaitTheresMore</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
