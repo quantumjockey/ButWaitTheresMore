@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="ObservableCollectionExtensions_spec.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ObjectExtensions_spec.cs" />
   </ItemGroup>
